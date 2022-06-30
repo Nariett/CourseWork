@@ -1,0 +1,30 @@
+					A program for editing and checking txt files for plagiarism
+What is plagiarism?
+	The concept of plagiarism implies the deliberate use of the results of someone else's creative, intellectual or other type of work. In this context, both the use of other people's developments in their own activities and the deliberate distortion of the final copyright are characteristic.
+Briefly about the program:
+	This program is designed to work with txt files, the program allows:
+	- Create, save and edit txt documents;
+	- Find words in the text and replace them;
+	- Check txt files for the percentage of convergence between each other;
+This program has a pleasant and easy-to-learn interface, is convenient to use and can be useful to people who find it difficult to understand similar programs. The program can also be useful for people who work with documents every day, since the program has low system requirements for work.
+The main window of the program consists of 2 parts:
+	- Main menu of the program;
+	- Working area;
+The main menu of the program contains the following items:
+	- "File" menu
+	- "Create File" menu
+	- "Save" Menu
+	- "Settings" Menu
+	- "Font" Menu
+	- "Help" Menu
+The File menu is used to interact with files, as well as upload them to the file selection column.
+The "Create File" menu is used to create a txt file.
+The "Save" menu is used to save the text that is in the "Text 1" field.
+The Settings menu is necessary to change the language, as well as to change the background color.
+The Font menu is used to change the font, font style, and text size.
+							Work in the program
+To create a red line in the application, you must enter the symbol "_" before the required text;
+To create a bulleted list in the application, you must enter the symbol "&" before the required text;
+To check the text for plagiarism, you need to enter the text in "Text 1" and "Text 2" or select "Files" in the column and paste by clicking the "Paste" button after entering the text, you need to click on "Compare", after calculating the percentage of similarity will be displayed near the "Compare" button.
+
+Developed by: Alexander Sergeevich Samoilov

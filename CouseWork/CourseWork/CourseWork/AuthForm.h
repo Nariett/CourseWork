@@ -1,8 +1,8 @@
 #pragma once
-#include <string.h>//подключение библиотеки string.h для работы с строками
-#include <fstream>//подключение библиотеки fstream для чтения файлов
-#include "MainForm.h"//подключение оконной формы MainForm.h
-#include "RegForm.h"//подключение оконной формы RegForm.h
+#include <string.h>//connecting the string.h library to work with strings
+#include <fstream>//connecting the fstream library to read files
+#include "MainForm.h"//connecting the window form MainForm.h
+#include "RegForm.h"//connecting the window form RegForm.h
 
 namespace CourseWork
 {
@@ -243,35 +243,35 @@ namespace CourseWork
 
 		}
 #pragma endregion
-	int Language = 2;//декланируется и инициализируется глобальная переменная типа int для смены языка в программе
-	int Color = 0;//декланируется и инициализируется глобальная переменная типа int для смены цвета в программе
-	private: System::Void blueToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//обработчик нажатия на blueToolStripMenuItem , в котором происходит измение цвета заднего фона на синий цвет
+	int Language = 2;//declaring and initializing a global variable of type int to change the language in the program
+	int Color = 0;//declaring and initializing a global variable of type int to change the color in the program
+	private: System::Void blueToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//click handler for blueToolStripMenuItem , in which the background color changes to blue
 	{
-		this->BackColor = Color::Blue;//назначить фоновым цветом ЭТОЙ оконной формы цвет "Синий"
-		this->label1->ForeColor=Color::White;//назначить цвет надписи Label1 "Белый"
-		this->label2->ForeColor = Color::White;//назначить цвет надписи Label2 "Белый"
-		Color = 1;//присвоение значения в Color 
+		this->BackColor = Color::Blue;//set the background color of THIS window form to "Blue"
+		this->label1->ForeColor=Color::White;//assign the color of the Label1 "White"
+		this->label2->ForeColor = Color::White;//assign the color of the Label2 "White"
+		Color = 1;//assigning a value to Color
 	}
-	private: System::Void greenToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//обработчик нажатия на greenToolStripMenuItem , в котором происходит измение цвета заднего фона на зеленый цвет 
+	private: System::Void greenToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//click handler for greenToolStripMenuItem , in which the background color changes to green
 	{
-		this->BackColor = Color::Green;//назначить фоновым цветом ЭТОЙ оконной формы цвет "Зеленый"
-		this->label1->ForeColor = Color::White;//назначить цвет надписи Label1 "Белый"
-		this->label2->ForeColor = Color::White;//назначить цвет надписи Label2 "Белый"
-		Color = 2;//присвоение значения в Color 
+		this->BackColor = Color::Green;//set the background color of THIS window form to "Green"
+		this->label1->ForeColor = Color::White;//assign the color of the Label1 "White"
+		this->label2->ForeColor = Color::White;//assign the color of the Label2 "White"
+		Color = 2;//assigning a value to Color
 	}
-	private: System::Void redToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//обработчик нажатия на redToolStripMenuItem , в котором происходит измение цвета заднего фона на красный цвет 
+	private: System::Void redToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//click handler for redToolStripMenuItem , in which the background color changes to red
 	{
-		this->BackColor = Color::Red;//назначить фоновым цветом ЭТОЙ оконной формы цвет "Красный"
-		this->label1->ForeColor = Color::White;//назначить цвет надписи Label1 "Белый"
-		this->label2->ForeColor = Color::White;//назначить цвет надписи Label2 "Белый"
-		Color = 3;//присвоение значения в Color 
+		this->BackColor = Color::Red;//set the background color of THIS window form to "Red"
+		this->label1->ForeColor = Color::White;//assign the color of the Label1 "White"
+		this->label2->ForeColor = Color::White;//assign the color of the Label2 "White"
+		Color = 3;//assigning a value to Color
 	}
-	private: System::Void defaultToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//обработчик нажатия на defaultToolStripMenuItem , в котором происходит измение цвета заднего фона стандартный цвет 
+	private: System::Void defaultToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//click handler for  defaultToolStripMenuItem , in which the background color is changed standard color
 	{
-		this->BackColor = SystemColors::ButtonFace;//назначить фоновым цветом ЭТОЙ оконной формы ситемный цвет "кнопочный серый" 
-		this->label1->ForeColor = Color::Black;//назначить цвет надписи Label1 "Черный цвет"
-		this->label2->ForeColor = Color::Black;//назначить цвет надписи Label2 "Черный цвет"
-		Color = 0;//присвоение значения в Color 
+		this->BackColor = SystemColors::ButtonFace;//set the background color of THIS window form to the system color "Button grey"
+		this->label1->ForeColor = Color::Black;//assign the color of the Label1 "Black"
+		this->label2->ForeColor = Color::Black;//assign the color of the Label2 "Black"
+		Color = 0;//assigning a value to Color
 	}
 	private: System::Void bYToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) //обработчик нажатия на bYToolStripMenuItem , в котором происходит измение языка на белорусский 
 	{

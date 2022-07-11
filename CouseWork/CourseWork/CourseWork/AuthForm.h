@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <string.h>//connecting the string.h library to work with strings
 #include <fstream>//connecting the fstream library to read files
 #include "MainForm.h"//connecting the window form MainForm.h
@@ -273,122 +273,123 @@ namespace CourseWork
 		this->label2->ForeColor = Color::Black;//assign the color of the Label2 "Black"
 		Color = 0;//assigning a value to Color
 	}
-	private: System::Void bYToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) //обработчик нажатия на bYToolStripMenuItem , в котором происходит измение языка на белорусский 
+	private: System::Void bYToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//bYToolStripMenuItem click handler, in which the language is changed to Belarusian
 	{
-		this->settingsToolStripMenuItem->Text = L"Наладжванне";//заполение текстом меню settingsToolStripMenuItem на белорусском языке
-		this->languageToolStripMenuItem->Text = L"Мова";//заполение текстом меню languageToolStripMenuItem на белорусском языке
-		this->rUToolStripMenuItem->Text = L"РУС";//заполение текстом меню rUToolStripMenuItem на белорусском языке
-		this->bYToolStripMenuItem->Text = L"БЕЛ";//заполение текстом  меню bYToolStripMenuItem на белорусском языке
-		this->eNToolStripMenuItem->Text = L"АНГЛ";//заполение текстом  меню eNToolStripMenuItem на белорусском языке
-		this->backgroundToolStripMenuItem->Text = L"Заднi фон";//заполение текстом меню backgroundToolStripMenuItem на белорусском языке
-		this->greenToolStripMenuItem->Text = L"Зялёны";//заполение текстом меню greenToolStripMenuItem на белорусском языке
-		this->blueToolStripMenuItem->Text = L"Сiнi";//заполение текстом меню blueToolStripMenuItem на белорусском языке
-		this->redToolStripMenuItem->Text = L"Чырвоны";//заполение текстом меню redToolStripMenuItem на белорусском языке
-		this->defaultToolStripMenuItem->Text = L"Стандартны";//заполение текстом меню defaultToolStripMenuItem на белорусском языке
-		this->label1->Text = "Лагiн";//заполение текстом надписи label1 на белорусском языке
-		this->label2->Text = "Пароль";//заполение текстом надписи label2 на белорусском языке
-		this->button1->Text = "Пацвердзiць";//заполение текстом надписи на кнопке button1 на белорусском языке
-		this->button2->Text = "Зарэгiстравацца";//заполение текстом надписи на кнопке button2 на белорусском языке
-		Language = 1;//присвоение значений в Language
+		this->settingsToolStripMenuItem->Text = L"РќР°Р»Р°РґР¶РІР°РЅРЅРµ";//filling in the menu text settingsToolStripMenuItem in Belarusian
+		this->languageToolStripMenuItem->Text = L"РњРѕРІР°";//filling in the menu text languageToolStripMenuItem in Belarusian
+		this->rUToolStripMenuItem->Text = L"Р РЈРЎ";//filling in the menu text rUToolStripMenuItem in Belarusian
+		this->bYToolStripMenuItem->Text = L"Р‘Р•Р›";//filling in the menu text bYToolStripMenuItem in Belarusian
+		this->eNToolStripMenuItem->Text = L"РђРќР“Р›";//filling in the menu text eNToolStripMenuItem in Belarusian
+		this->backgroundToolStripMenuItem->Text = L"Р—Р°РґРЅi С„РѕРЅ";//filling in the menu text backgroundToolStripMenuItem in Belarusian
+		this->greenToolStripMenuItem->Text = L"Р—СЏР»С‘РЅС‹";//filling in the menu text greenToolStripMenuItem in Belarusian
+		this->blueToolStripMenuItem->Text = L"РЎiРЅi";//filling in the menu text blueToolStripMenuItem in Belarusian
+		this->redToolStripMenuItem->Text = L"Р§С‹СЂРІРѕРЅС‹";//filling in the menu text redToolStripMenuItem in Belarusian
+		this->defaultToolStripMenuItem->Text = L"РЎС‚Р°РЅРґР°СЂС‚РЅС‹";//filling in the menu text defaultToolStripMenuItem in Belarusian
+		this->label1->Text = "Р›Р°РіiРЅ";//filling in the text of the inscription label1 in Belarusian
+		this->label2->Text = "РџР°СЂРѕР»СЊ";//filling in the text of the inscription label2 in Belarusian
+		this->button1->Text = "РџР°С†РІРµСЂРґР·iС†СЊ";//filling in the text of the button bitton1 in Belarusian
+		this->button2->Text = "Р—Р°СЂСЌРіiСЃС‚СЂР°РІР°С†С†Р°";////filling in the text of the button bitton2 in Belarusian
+		Language = 1;//assigning values вЂ‹вЂ‹in Language
 	}
-	private: System::Void eNToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)// обработчик нажатия на eNToolStripMenuItem, в котором происходит измение языка на англиский
+	private: System::Void eNToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)// eNToolStripMenuItem click handler, in which the language is changed to English
 	{
-		this->settingsToolStripMenuItem->Text = L"Settings";//заполение текстом меню settingsToolStripMenuItem на англиском языке
-		this->languageToolStripMenuItem->Text = L"Language";//заполение текстом меню languageToolStripMenuItem на англиском языке
-		this->rUToolStripMenuItem->Text = L"RU";//заполение текстом меню rUToolStripMenuItem на англиском языке
-		this->bYToolStripMenuItem->Text = L"BY";//заполение текстом  меню bYToolStripMenuItem на англиском языке
-		this->eNToolStripMenuItem->Text = L"EN";//заполение текстом  меню eNToolStripMenuItem на англиском языке
-		this->backgroundToolStripMenuItem->Text = L"Background";//заполение текстом меню backgroundToolStripMenuItem на англиском языке
-		this->greenToolStripMenuItem->Text = L"Green";//заполение текстом меню greenToolStripMenuItem на англиском языке
-		this->blueToolStripMenuItem->Text = L"Blue";//заполение текстом меню blueToolStripMenuItem на англиском языке
-		this->redToolStripMenuItem->Text = L"Red";//заполение текстом меню redToolStripMenuItem на англиском языке
-		this->defaultToolStripMenuItem->Text = L"Default";//заполение текстом меню defaultToolStripMenuItem на англиском языке
-		this->label1->Text = "Login";//заполение текстом надписи label1 на англиском языке
-		this->label2->Text = "Password";//заполение текстом надписи label2 на англиском языке
-		this->button1->Text = "Confirm";//заполение текстом надписи на кнопке button1 на англиском языке
-		this->button2->Text = "Register";//заполение текстом надписи на кнопке button2 на англиском языке
-		Language = 2;//присвоение значений в Language
+		this->settingsToolStripMenuItem->Text = L"Settings";//filling in the menu text settingsToolStripMenuItem in English
+		this->languageToolStripMenuItem->Text = L"Language";//filling in the menu text languageToolStripMenuItem in English
+		this->rUToolStripMenuItem->Text = L"RU";//filling in the menu text rUToolStripMenuItem in English
+		this->bYToolStripMenuItem->Text = L"BY";//filling in the menu text bYToolStripMenuItem in English
+		this->eNToolStripMenuItem->Text = L"EN";//filling in the menu text eNToolStripMenuItem in English
+		this->backgroundToolStripMenuItem->Text = L"Background";//filling in the menu text backgroundToolStripMenuItem in English
+		this->greenToolStripMenuItem->Text = L"Green";//filling in the menu text greenToolStripMenuItem in English
+		this->blueToolStripMenuItem->Text = L"Blue";//filling in the menu text blueToolStripMenuItem in English
+		this->redToolStripMenuItem->Text = L"Red";//filling in the menu text redToolStripMenuItem in English
+		this->defaultToolStripMenuItem->Text = L"Default";//filling in the menu text defaultToolStripMenuItem in English
+		this->label1->Text = "Login";//filling in the text of the inscription label1 in English
+		this->label2->Text = "Password";//filling in the text of the inscription label2 in English
+		this->button1->Text = "Confirm";//filling in the text of the button bitton1 in English
+		this->button2->Text = "Register";//filling in the text of the button bitton2 in English
+		Language = 2;//assigning values вЂ‹вЂ‹in Language
 	}
-	private: System::Void rUToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)// обработчик нажатия на rUToolStripMenuItem, в котором происходит измение языка на русский
+	private: System::Void rUToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)//handler for clicking on rUToolStripMenuItem, in which the language changes to Russian
 	{
-		this->settingsToolStripMenuItem->Text = L"Настройки";//заполение текстом меню settingsToolStripMenuItem на русском языке
-		this->languageToolStripMenuItem->Text = L"Язык";//заполение текстом меню languageToolStripMenuItem на русском языке
-		this->rUToolStripMenuItem->Text = L"РУС";//заполение текстом меню rUToolStripMenuItem на русском языке
-		this->bYToolStripMenuItem->Text = L"БЕЛ";//заполение текстом  меню bYToolStripMenuItem на русском языке
-		this->eNToolStripMenuItem->Text = L"АНГЛ";//заполение текстом  меню eNToolStripMenuItem на русском языке
-		this->backgroundToolStripMenuItem->Text = L"Задний фон";//заполение текстом меню backgroundToolStripMenuItem на русском языке
-		this->greenToolStripMenuItem->Text = L"Зеленый";//заполение текстом меню greenToolStripMenuItem на русском языке
-		this->blueToolStripMenuItem->Text = L"Синий";//заполение текстом меню blueToolStripMenuItem на русском языке
-		this->redToolStripMenuItem->Text = L"Красный";//заполение текстом меню redToolStripMenuItem на русском языке
-		this->defaultToolStripMenuItem->Text = L"Стандартный";//заполение текстом меню defaultToolStripMenuItem на русском языке
-		this->label1->Text = "Логин";//заполение текстом надписи label1 на русском языке
-		this->label2->Text = "Пароль";//заполение текстом надписи label2 на русском языке
-		this->button1->Text = "Подтвердить";//заполение текстом надписи на кнопке button1 на русском языке
-		this->button2->Text = "Зарегистрироваться";//заполение текстом надписи на кнопке button2 на русском языке
-		Language = 3;//присвоение значений в Language
+		this->settingsToolStripMenuItem->Text = L"РќР°СЃС‚СЂРѕР№РєРё";//filling in the menu text settingsToolStripMenuItem in Russian
+		this->languageToolStripMenuItem->Text = L"РЇР·С‹Рє";//filling in the menu text languageToolStripMenuItem in Russian
+		this->rUToolStripMenuItem->Text = L"Р РЈРЎ";//filling in the menu text rUToolStripMenuItem in Russian
+		this->bYToolStripMenuItem->Text = L"Р‘Р•Р›";//filling in the menu text bYToolStripMenuItem in Russian
+		this->eNToolStripMenuItem->Text = L"РђРќР“Р›";//filling in the menu text eNToolStripMenuItem in Russian
+		this->backgroundToolStripMenuItem->Text = L"Р—Р°РґРЅРёР№ С„РѕРЅ";//filling in the menu text backgroundToolStripMenuItem in Russian
+		this->greenToolStripMenuItem->Text = L"Р—РµР»РµРЅС‹Р№";//filling in the menu text greenToolStripMenuItem in Russian
+		this->blueToolStripMenuItem->Text = L"РЎРёРЅРёР№";//filling in the menu text blueToolStripMenuItem in Russian
+		this->redToolStripMenuItem->Text = L"РљСЂР°СЃРЅС‹Р№";//filling in the menu text redToolStripMenuItem in Russian
+		this->defaultToolStripMenuItem->Text = L"РЎС‚Р°РЅРґР°СЂС‚РЅС‹Р№";//filling in the menu text defaultToolStripMenuItem in Russian
+		this->label1->Text = "Р›РѕРіРёРЅ";//filling in the text of the inscription label1 in Russian
+		this->label2->Text = "РџР°СЂРѕР»СЊ";//filling in the text of the inscription label2 in Russian
+		this->button1->Text = "РџРѕРґС‚РІРµСЂРґРёС‚СЊ";//filling in the text of the button bitton1 in Russian
+		this->button2->Text = "Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°С‚СЊСЃСЏ";//filling in the text of the button bitton1 in Russian
+		Language = 3;//assigning values вЂ‹вЂ‹in Language
 	}
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)//обработчик нажатия на button1, в котором проходит аунтификация пользователя
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)//button1 click handler, in which the user is authenticated
 	{
-		try//начало области кода, в которой отслеживаются ошибки
+		try//beginning of code area where errors are tracked
 		{
-			int pass = 0;//дикларация и инициализация переменной типа int
-			StreamReader^ sr = gcnew System::IO::StreamReader("Data.txt");//создвние потока sr для чтение Data.txt 
-			String^ Login = this->textBox1->Text;//дикларация и инициализация переменной типа String значения из textBox1
-			String^ Password = this->textBox2->Text;//дикларация и инициализация переменной типа String значения из textBox2
-			String^ FullPass = gcnew String(Login + "#" + Password);//декланируется и инициализируется FullPass путем соединения Login и Password
-			while (!sr->EndOfStream)//выполнять цикл пока не будет достигнут конец потока sw
+			int pass = 0;//declaration and initialization of a variable of type int
+			StreamReader^ sr = gcnew System::IO::StreamReader("Data.txt");//create a stream sr for reading Data.txt
+			String^ Login = this->textBox1->Text;//declaration and initialization of a variable of type String of value from textBox1
+			String^ Password = this->textBox2->Text;//declaration and initialization of a variable of type String of value from textBox2
+			String^ FullPass = gcnew String(Login + "#" + Password);//declares and initializes FullPass by connecting Login and Password
+			while (!sr->EndOfStream)//loop until the end of the stream is reached sw
 			{
-				String^ Text = sr->ReadLine();//декланируется и инициализируется Text путем записи текста из строки документа Data.txt
-				if (Text == FullPass)// если Text = Fullpass
+				String^ Text = sr->ReadLine();//declares and initializes Text by writing the text from the document string Data.txt
+				if (Text == FullPass)// if Text = Fullpass
 				{
-					pass++;//увеличение значения pass на 1
-					break;//прекратить цикл
+					pass++;//increase pass value by 1
+					break;//stop the loop
 				}
 			}
-			if (pass == 1)//если pass = 1 
+			if (pass == 1)
 			{
-				MainForm^ form = gcnew MainForm(Language, Color);//создать новую оконную форму типа класса MainForm конструктором с целочисленнными параметрами
-				AuthForm::Hide();//скрыть AuthForm
-				form->Show();//показать форму MainForm
+				MainForm^ form = gcnew MainForm(Language, Color);//create a new window form of the MainForm class type with a constructor with integer parameters
+				AuthForm::Hide();//hide AuthForm
+				form->Show();//show MainForm
 			}
-			else//иначе
+			else
 			{
-				if (Language == 1)//если Language = 1 => MessageBox на белорусском языке
+				if (Language == 1)//if Language = 1 => MessageBox in Belarusian
 				{
-					MessageBox::Show("Уведзены няправiльны лагiн цi пароль. \nПаутарыце спробу!", "Памылка");//показать сообщение с описание ошибки
+					MessageBox::Show("РЈРІРµРґР·РµРЅС‹ РЅСЏРїСЂР°РІiР»СЊРЅС‹ Р»Р°РіiРЅ С†i РїР°СЂРѕР»СЊ. \nРџР°СѓС‚Р°СЂС‹С†Рµ СЃРїСЂРѕР±Сѓ!", "РџР°РјС‹Р»РєР°");//show message with error description
 				}
-				if (Language == 2)//если Language = 2 => MessageBox на англиском языке
+				if (Language == 2)//if Language = 2 => MessageBox in English
 				{
-					MessageBox::Show("Invalid logs or password entered. \nTry again!", "Error");//показать сообщение с описание ошибки
+					MessageBox::Show("Invalid logs or password entered. \nTry again!", "Error");//show message with error description
 				}
-				if (Language == 3)//если Language = 3 => MessageBox на русском языке
+				if (Language == 3)//РµСЃР»Рё Language = 3 => MessageBox in Russian
 				{
-					MessageBox::Show("Введен неверный логин или пароль. \nПовторите попытку!", "Ошибка");//показать сообщение с описание ошибки
+					MessageBox::Show("Р’РІРµРґРµРЅ РЅРµРІРµСЂРЅС‹Р№ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ. \nРџРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ!", "РћС€РёР±РєР°");//show message with error description
 				}
 			}
 		}
-		catch (System::IO::FileNotFoundException ^ e)//отлов ошибки типа FileNotFoundException
+		catch (System::IO::FileNotFoundException ^ e)//catching an error of type FileNotFoundException
 		{
 	
-			if (Language == 1)//если Language = 1 => MessageBox на белорусском языке
+			if (Language == 1)//if Language = 1 => MessageBox in Belarusian
 			{
-				MessageBox::Show("База пароляў пустая, зарэгіструйцеся!", "Памылка");//показать сообщение с описание ошибки
+				MessageBox::Show("Р‘Р°Р·Р° РїР°СЂРѕР»СЏСћ РїСѓСЃС‚Р°СЏ, Р·Р°СЂСЌРіС–СЃС‚СЂСѓР№С†РµСЃСЏ!", "РџР°РјС‹Р»РєР°");//show message with error description
 			}
-			if (Language == 2)//если Language = 2 => MessageBox на англиском языке
+			if (Language == 2)//if Language = 2 => MessageBox in English
 			{
-				MessageBox::Show("Password database is empty, register!", "Error");//показать сообщение с описание ошибки
+				MessageBox::Show("Password database is empty, register!", "Error");//show message with error description
 			}
-			if (Language == 3)//если Language = 3 => MessageBox на русском языке
+			if (Language == 3)//РµСЃР»Рё Language = 3 => MessageBox in Russian
 			{
-				MessageBox::Show("База паролей пуста, зарегистрируйтесь!", "Ошибка");//показать сообщение с описание ошибки
+				MessageBox::Show("Р‘Р°Р·Р° РїР°СЂРѕР»РµР№ РїСѓСЃС‚Р°, Р·Р°СЂРµРіРёСЃС‚СЂРёСЂСѓР№С‚РµСЃСЊ!", "РћС€РёР±РєР°");//show message with error description
 			}
-			std::ofstream error("Data.txt");//создание txt файла с именем Data.txt
-			error.close();//закрытие потока error
+			std::ofstream error("Data.txt");//create a txt file named Data.txt
+			error.close();//closing the stream error
 		}
 	}
-	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {//обработчик нажатия на button2, в котором проходит регистрация пользователя
-		RegForm^ form = gcnew RegForm(Language, Color);//создать новую оконную форму типа класса RegForm конструктором с целочисленными параметрами
-		form->Show();//показать форму RegForm
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)//click handler for button2, in which the user registers
+	{
+		RegForm^ form = gcnew RegForm(Language, Color);//create a new window form of the RegForm class type with a constructor with integer parameters
+		form->Show();//show RegForm
 	}
 };
 }

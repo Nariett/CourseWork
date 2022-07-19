@@ -75,43 +75,43 @@ namespace CourseWork {
 
 		}
 #pragma endregion
-		int Color = 0;//декланируется и инициализируется глобальная переменная типа int для смены цвета в программе
-		int Language = 0;//декланируется и инициализируется глобальная переменная типа int для смены языка в программе
-	private: System::Void HelpForm_Load(System::Object^ sender, System::EventArgs^ e)//метот-обработчик события загрузки оконной формы
+		int Color = 0;//declaring and initializing a global variable of type int to change the color in the program
+		int Language = 0;//declaring and initializing a global variable of type int to change the language in the program
+	private: System::Void HelpForm_Load(System::Object^ sender, System::EventArgs^ e)//windows form event handler method
 	{
-		if (Color == 0)//если Color = 0 => установка фонового цвета "Кнопочный серый"
+		if (Color == 0)//if Color = 0 => set background color to "button grey"
 		{
-			this->BackColor = SystemColors::ButtonFace;//назначить фоновым цветом ЭТОЙ оконной формы ситемный цвет "кнопочный серый" 
+			this->BackColor = SystemColors::ButtonFace;//set the background color of this windows form to "button grey"
 		}
-		if (Color == 1)//если Color = 1 => установка фонового цвета "Синий"
+		if (Color == 1)//if Color = 1 => set background color to blue
 		{
-			this->BackColor = Color::Blue;;//назначить фоновым цветом ЭТОЙ оконной формы цвет "Синий"
+			this->BackColor = Color::Blue;//set the background color of this windows form to blue 
 		}
-		if (Color == 2)//если Color = 2 => установка фонового цвета "Зеленый"
+		if (Color == 2)//if Color = 2 => set background color to green
 		{
-			this->BackColor = Color::Green;//назначить фоновым цветом ЭТОЙ оконной формы цвет "Зеленый"
+			this->BackColor = Color::Green;//set the background color of this windows form to green
 		}
-		if (Color == 3)//если Color = 3 => установка фонового цвета "Красный"
+		if (Color == 3)//if Color = 3 => set background color to red
 		{
-			this->BackColor = Color::Red;//назначить фоновым цветом ЭТОЙ оконной формы цвет "Красный"
+			this->BackColor = Color::Red;//set the background color of this windows form to red 
 		}
-		if (Language == 1)//если Language = 1 => установка белорусского языка
+		if (Language == 1)//if Language = 1 => MessageBox in Belarusian
 		{
-			StreamReader^ read = gcnew System::IO::StreamReader("HelpBy.txt");//создвние потока sr для чтение HelpBy.txt 
-			richTextBox1->Text = read->ReadToEnd();//добавить в richTextBox1 весь текст из HelpBy.txt
-			read->Close();//закртыть поток read
+			StreamReader^ read = gcnew System::IO::StreamReader("HelpBy.txt");//create stream sr for reading HelpBy.txt 
+			richTextBox1->Text = read->ReadToEnd();//add all text from HelpBy.txt to richTextBox1 
+			read->Close();//close stream read
 		}
-		if (Language == 2)//если Language = 2 => установка англиского языка
+		if (Language == 2)//if Language = 2 => MessageBox in English
 		{
-			StreamReader^ read = gcnew System::IO::StreamReader("HelpEn.txt");//создвние потока sr для чтение HelpEn.txt 
-			richTextBox1->Text = read->ReadToEnd();//добавить в richTextBox1 весь текст из HelpBy.txt
-			read->Close();//закртыть поток read
+			StreamReader^ read = gcnew System::IO::StreamReader("HelpEn.txt");;//create stream sr for reading HelpBy.txt 
+			richTextBox1->Text = read->ReadToEnd();//add all text from HelpBy.txt to richTextBox1 
+			read->Close();//close stream read
 		}
-		if (Language == 3)//если Language = 3 => установка русского языка
+		if (Language == 3)//если Language = 3 => MessageBox in Russian
 		{
-			StreamReader^ read = gcnew System::IO::StreamReader("HelpRu.txt");//создвние потока sr для чтение HelpRu.txt 
-			richTextBox1->Text = read->ReadToEnd();//добавить в richTextBox1 весь текст из HelpBy.txt
-			read->Close();//закртыть поток read
+			StreamReader^ read = gcnew System::IO::StreamReader("HelpRu.txt");;//create stream sr for reading HelpBy.txt
+			richTextBox1->Text = read->ReadToEnd();//add all text from HelpBy.txt to richTextBox1 
+			read->Close();//close stream read
 		}
 
 	}

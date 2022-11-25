@@ -23,3 +23,10 @@ C:\GitHub\Course_Work\CouseWork\CourseWork\CourseWork\Debug\CourseWork.MainForm.
 C:\GitHub\Course_Work\CouseWork\CourseWork\CourseWork\Debug\CourseWork.RegForm.resources
 C:\GitHub\Course_Work\CouseWork\CourseWork\CourseWork\Debug\CourseWork.vcxproj.GenerateResource.cache
 C:\GitHub\Course_Work\CouseWork\CourseWork\CourseWork\Debug\CourseWork.vcxproj.CopyComplete
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.vcxproj.AssemblyReference.cache
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.AuthForm.resources
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.HelpForm.resources
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.MainForm.resources
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.RegForm.resources
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.vcxproj.GenerateResource.cache
+C:\GitHub\CourseWork\CouseWork\CourseWork\CourseWork\Debug\CourseWork.vcxproj.CopyComplete
